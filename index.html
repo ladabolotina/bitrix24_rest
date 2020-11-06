@@ -6,7 +6,14 @@
 </head>
 <body>
 	
-
+	<form method="post" id="form">
+		<input type="hidden" name="DATA[TITLE]" value="Заявка с лендинга №1">
+		<input type="text" name="DATA[NAME]" placeholder="Ваше имя" required>
+		<input type="text" name="DATA[PHONE_WORK]" placeholder="Ваш телефон" required>
+		<input type="text" name="DATA[EMAIL_WORK]" placeholder="Ваш email" required>
+		<textarea name="DATA[COMMENTS]" placeholder="Комментарий к заявке"></textarea>
+		<button>Отправить</button>
+	</form>
 
 	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script src="common.js"></script>
